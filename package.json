@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "rest server",
   "main": "index.js",
-  "engines":{
+  "engines": {
     "node": "4.6.1"
   },
   "scripts": {
@@ -17,9 +17,10 @@
     "express": "4.14.*",
     "express-load": "1.1.*",
     "express-validator": "3.1.*",
-    "socket.io": "1.7.*",
-    "request-json" : "0.6.*",
-    "mongodb" : "3.0.*"
+    "mongodb": "3.0.*",
+    "node-env-file": "0.1.*",
+    "request-json": "0.6.*",
+    "socket.io": "1.7.*"
   },
   "devDependencies": {
     "mocha": "3.2.*",
