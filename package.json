@@ -17,7 +17,7 @@
     "express": "4.14.*",
     "express-load": "1.1.*",
     "express-validator": "3.1.*",
-    "mongodb": "3.0.*",
+    "mongoose": "5.0.*",
     "node-env-file": "0.1.*",
     "request-json": "0.6.*",
     "socket.io": "1.7.*"
