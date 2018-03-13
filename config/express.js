@@ -10,7 +10,10 @@ module.exports = function() {
 	app.use(bodyParser.json());
 	app.use(expressValidator());
 
-	load('infra',{cwd:'app'})
+	load('models',{cwd:'app'})
+		.then('infra')
+		.then('services')
+		.then('controllers')
 		.then('routes')
 		.into(app);
 
