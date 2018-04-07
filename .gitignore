@@ -4,3 +4,5 @@
 npm-debug.log
 #env file
 .env
+#code edit files
+/.vscode
